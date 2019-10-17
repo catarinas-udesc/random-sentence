@@ -1,0 +1,25 @@
+body{
+   background-image: radial-gradient(white,rgb(112, 219, 184));
+}
+main {
+  max-width: 700px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+blockquote {
+  font-size: 10vw;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div {
+  text-align: center;
+}
+button {
+  background-color: pink;
+  font-size: 3vw;
+  border-color: palevioletred;
+  border-radius: 5px;
+}
