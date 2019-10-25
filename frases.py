@@ -13,4 +13,5 @@ frases = [
 "Baby Shark tuturu", #Murilo Oliveira
 "Bota", # Rafael Granza
 "Babyyyyy Shark"# Rafael Pereira
+"Se tem uma coisa que acaba com meu dia, é a noite"#Natália Speck  
 ]
