@@ -10,4 +10,5 @@ frases = [
 "Apesar de tudo eu ainda creio na bondade humana. (Anne Frank)" #Luciano Abreu
 "Prefiro uma pedra no meu caminho que uma pedra nos meus rins", #Jaasiel Abner
 "Babyyyyy Shark"# Rafael Pereira
+"Se tem uma coisa que acaba com meu dia, é a noite"#Natália Speck  
 ]
