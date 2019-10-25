@@ -11,5 +11,6 @@ frases = [
 "Prefiro uma pedra no meu caminho que uma pedra nos meus rins", #Jaasiel Abner
 "Simplicity is prerequisite for reliability.", #Vinicius Gasparini
 "Baby Shark tuturu", #Murilo Oliveira
-"Bota" # Rafael Granza
+"Bota", # Rafael Granza
+"Babyyyyy Shark"# Rafael Pereira
 ]
