@@ -5,13 +5,10 @@ frases = [
 "Nos chamam de loucos, num mundo em que os certos fazem bombas.", #Igor Froehner
 "All that we are is the result of what we have thought. (Buddha)", #Luísa Kinas
 "Eu prefiro morrer do que perder a vida!(Chaves)",#Vitor Bernstorff Clemes
-"É um erro acreditar que é possível resolver qualquer problema importante usando batatas. (Douglas Adams)", #Lais,
-"O sucesso é um mestre terrível. Convence às pessoas inteligentes a pensar que não vão perder. (Bill Gates)" ,#Eliton Machado da Silva
-"Apesar de tudo eu ainda creio na bondade humana. (Anne Frank)", #Luciano Abreu
+"É um erro acreditar que é possível resolver qualquer problema importante usando batatas. (Douglas Adams)" #Lais,
+"O sucesso é um mestre terrível. Convence às pessoas inteligentes a pensar que não vão perder. (Bill Gates)" #Eliton Machado da Silva
+"Apesar de tudo eu ainda creio na bondade humana. (Anne Frank)" #Luciano Abreu
 "Prefiro uma pedra no meu caminho que uma pedra nos meus rins", #Jaasiel Abner
-"Simplicity is prerequisite for reliability.", #Vinicius Gasparini
-"Baby Shark tuturu", #Murilo Oliveira
-"Bota", # Rafael Granza
 "Babyyyyy Shark"# Rafael Pereira
-"Se tem uma coisa que acaba com meu dia, é a noite"#Natália Speck  
+"Gentílico de quem nasce em Tubarão-SC é Baby Shark.", #MuriloLoffi
 ]
