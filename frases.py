@@ -9,4 +9,5 @@ frases = [
 "O sucesso é um mestre terrível. Convence às pessoas inteligentes a pensar que não vão perder. (Bill Gates)" #Eliton Machado da Silva
 "Apesar de tudo eu ainda creio na bondade humana. (Anne Frank)" #Luciano Abreu
 "Prefiro uma pedra no meu caminho que uma pedra nos meus rins", #Jaasiel Abner
+"Babyyyyy Shark"# Rafael Pereira
 ]
