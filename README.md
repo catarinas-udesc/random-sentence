@@ -4,6 +4,9 @@ Neste projeto estamos criando um site que mostra frases aleatórias. Precisamos 
 Você pode achar algo que você tenha conhecimento para fazer na aba "Issues". Lá colocamos algumas tarefas que precisam ser executadas.
 Também estamos abertos a ideias, se você tem alguma ideia de melhoria ou até de recursos novos para implementar na página fique a vontade para desenvolver e dê seu commit.
 
+## Link
+https://randomsentence.herokuapp.com/
+
 ## Ideias
 
 * Melhorar o visual do site para que ele seja mais atraente aos usuários.
