@@ -12,6 +12,7 @@ frases = [
 "Simplicity is prerequisite for reliability.", #Vinicius Gasparini
 "Baby Shark tuturu", #Murilo Oliveira
 "Bota", # Rafael Granza
-"Babyyyyy Shark"# Rafael Pereira
-"Se tem uma coisa que acaba com meu dia, é a noite"#Natália Speck  
+"Babyyyyy Shark",# Rafael Pereira
+"Se tem uma coisa que acaba com meu dia, é a noite",#Natália Speck  
+"A vida e feita de escolhas, e tem gente que nao sabe escolher... (GRANZA, Rafael)",# Danilo Steps
 ]
