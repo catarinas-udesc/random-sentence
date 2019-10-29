@@ -20,5 +20,5 @@ frases = [
 "Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo. (Confúcio)," #None
 "Babuinos bobócas balbuciando em bando" #Eduarda
 "Jamais, em hipótese alguma, deixe um Vogon ler poesias para você. (O guia do mochileiro das galáxias)" #Eduarda
-
+]
 
