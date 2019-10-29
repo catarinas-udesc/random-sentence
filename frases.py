@@ -11,4 +11,11 @@ frases = [
 "Prefiro uma pedra no meu caminho que uma pedra nos meus rins", #Jaasiel Abner
 "Babyyyyy Shark"# Rafael Pereira
 "Gentílico de quem nasce em Tubarão-SC é Baby Shark.", #MuriloLoffi
-]
+"Simplicity is prerequisite for reliability.", #Vinicius Gasparini
+"Baby Shark tuturu", #Murilo Oliveira
+"Bota", # Rafael Granza
+"Babyyyyy Shark",# Rafael Pereira
+"Se tem uma coisa que acaba com meu dia, é a noite",#Natália Speck  
+"A vida e feita de escolhas, e tem gente que nao sabe escolher... (GRANZA, Rafael)",# Danilo Steps
+"Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo. (Confúcio)," #None
+
