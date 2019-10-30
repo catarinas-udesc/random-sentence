@@ -20,5 +20,6 @@ frases = [
 "Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo. (Confúcio)", #None
 "Babuinos bobócas balbuciando em bando", #Eduarda
 "Jamais, em hipótese alguma, deixe um Vogon ler poesias para você. (O guia do mochileiro das galáxias)", #Eduarda
+"It’s good to be scared. It means you still have something to lose. (Richard Webber, M.D, que é um médico fictício de Grey's Anatomy, mas que tem razão em algumas de suas falas fictícias)", #Rafaéla
 ]
 
