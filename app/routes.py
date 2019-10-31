@@ -7,7 +7,6 @@ import random
 
 @app.route('/')
 def index():
-    #Adicionar botão que mude a frase
     frase = random.choice(frases)
     return render_template('index.html', frase=frase)
 
