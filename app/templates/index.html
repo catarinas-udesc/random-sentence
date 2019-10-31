@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS -->
     <link rel="stylesheet" href="../static/style.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap Materia Theme By Bootswatch -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css" rel="stylesheet" integrity="sha384-SYbiks6VdZNAKT8DNoXQZwXAiuUo5/quw6nMKtFlGO/4WwxW86BSTMtgdzzB9JJl" crossorigin="anonymous">
     <title>Random Sentence</title>
   </head>
   <body>
-    <div class="row">
-      <div class="container">
-        <div class="center">
-          <b>{{frase}}</b>
-        </div>
-      </div>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+      <blockquote class="blockquote text-center">
+        <p class="mb-0" id="elemento_da_frase">{{frase}}</p>
+        <footer class="blockquote-footer">Alguém em algum lugar</cite></footer>
+      </blockquote>
     </div>
   </body>
 </html>
