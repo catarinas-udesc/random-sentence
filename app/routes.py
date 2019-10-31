@@ -13,6 +13,4 @@ def index():
 @app.route('/frase')
 def api_frase():
     frase = random.choice(frases)
-    return jsonify({
-        "frase": frase
-    })
+    return jsonify({"frase": frase})
