@@ -1,3 +1,25 @@
+from enum import Enum
+
+
+class Categoria(Enum):
+    Engracada = "Engraçada"
+    Motivacional = "Motivacional"
+    Outro = "Outro"
+
+
+class Frase():
+    def __init__(self,
+        frase,
+        autor=None,
+        enviado_por=None,
+        categorias=[]
+    ):
+        self.frase = frase
+        self.autor = autor
+        self.categorias = categorias
+        self.enviado_por = enviado_por
+
+
 frases = [
 "Ficar louco de vez em quando é necessidade básica para permanecer são. (Osho)", #Nome
 "Uma vez ao ano é lícito fazer loucuras. (Santo Agostinho)", #Nome
@@ -23,3 +45,6 @@ frases = [
 "It’s good to be scared. It means you still have something to lose. (Richard Webber, M.D, que é um médico fictício de Grey's Anatomy, mas que tem razão em algumas de suas falas fictícias)", #Rafaéla
 ]
 
+
+# É necessário refatorar a lista de frases, mas enquanto isso segue a solução técnica de caráter provisório:
+frases = [Frase(frase, categorias=[Categoria.Outro]) for frase in frases]
