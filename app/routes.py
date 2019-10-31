@@ -9,4 +9,4 @@ import random
 def index():
     #Adicionar botão que mude a frase
     frase = random.choice(frases)
-    return render_template('index.html', frase=frase)
+    return render_template('index.html', frase=frase.frase)
