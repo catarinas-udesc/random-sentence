@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="../static/style.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <title>Random Sentence</title>
   </head>
   <body>
+
     <div class="row">
       <div class="container">
         <div class="center">
-          <b>{{frase}}</b>
+          <b id="elemento_da_frase">{{frase}}</b>
+          <br>
+          <button class="btn btn-link" id="botao_mudar_frase">Outra frase</button>
         </div>
       </div>
     </div>
+    <script>
+    $("#botao_mudar_frase").click(function(){
+      $.get("frase", function(resposta){
+        $("#elemento_da_frase").text(resposta.frase);
+      });
+    });
+    </script>
   </body>
 </html>
