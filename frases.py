@@ -48,4 +48,9 @@ frases = [
 
 
 # É necessário refatorar a lista de frases, mas enquanto isso segue a solução técnica de caráter provisório:
-frases = [Frase(frase, categorias=[Categoria.Outro]) for frase in frases]
+def cria_frase(frase):
+    autor = frase[frase.find("(")+1:frase.find(")")] if "(" in frase else "Desconhecido"
+    frase = frase.replace(f"({autor})","")
+    return Frase(frase, autor, categorias=[Categoria.Outro])
+
+frases = [cria_frase(frase) for frase in frases]
