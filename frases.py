@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-class Categoria(Enum):
+class Categoria(str, Enum):
     Engracada = "Engraçada"
     Motivacional = "Motivacional"
     Outro = "Outro"
