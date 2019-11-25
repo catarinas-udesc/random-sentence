@@ -6,27 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS -->
     <link rel="stylesheet" href="../static/style.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap Materia Theme By Bootswatch -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css" rel="stylesheet" integrity="sha384-SYbiks6VdZNAKT8DNoXQZwXAiuUo5/quw6nMKtFlGO/4WwxW86BSTMtgdzzB9JJl" crossorigin="anonymous">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <title>Random Sentence</title>
   </head>
   <body>
-
-    <div class="row">
-      <div class="container">
-        <div class="center">
-          <b id="elemento_da_frase">{{frase}}</b>
-          <br>
-          <button class="btn btn-link" id="botao_mudar_frase">Outra frase</button>
-        </div>
-      </div>
+    <div class="d-flex justify-content-center align-items-center vh-100 flex-column">
+      <blockquote class="blockquote text-center">
+        <p class="mb-0" id="elemento_da_frase">{{frase.frase}}</p>
+        <footer class="blockquote-footer" id="elemento_do_autor">{{ frase.autor }}</cite></footer>
+      </blockquote>
+      <button class="btn btn-link" id="botao_mudar_frase">Outra frase</button>
     </div>
     <script>
     $("#botao_mudar_frase").click(function(){
       $.get("frase", function(resposta){
-        $("#elemento_da_frase").text(resposta.frase);
+        $("#elemento_da_frase").text(resposta.frase.frase);
+        $("#elemento_do_autor").text(resposta.frase.autor);
       });
     });
     </script>
